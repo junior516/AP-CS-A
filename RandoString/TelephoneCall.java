@@ -13,10 +13,10 @@ public class TelephoneCall {
 
         int totalMinutes = input.nextInt();
         int extraMinutes = totalMinutes - 2;
-        
-        // format decimals to hundredths, for example 7 -> 7.00
+
+        // format numbers to hundredths, for example 7 -> 7.00
         DecimalFormat hundredths = new DecimalFormat("0.00");
-        
+
         // make sure extraMinutes isn't negative so we don't lose on the cost
         if (extraMinutes < 0) {
             extraMinutes = 0;
