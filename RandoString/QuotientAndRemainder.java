@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class QuotientAndRemainder {
     public static void main(String[] args) {
         // scanner to retrieve data
@@ -11,8 +10,8 @@ public class QuotientAndRemainder {
         // retrieve divisor
         System.out.println("Choose a divisor: ");
         int divisor = input.nextInt();
-        int quotient; 
-        int remainder; 
+        int quotient;
+        int remainder;
         // retrieve remainder and quotient
         remainder = dividend % divisor;
         quotient = dividend / divisor;
