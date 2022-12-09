@@ -1,29 +1,27 @@
+// Driver for Book and Patron classes
 public class BookAndPatronDriver {
+
+    // Main method
     public static void main(String[] args) {
-        Patron joeBiden = new Patron("Joe Biden");
-
-        Book book1 = new Book("The Art of War", "Sun Tzu");
-        Book book2 = new Book("The Prince", "Niccolo Machiavelli");
-        Book book3 = new Book("The Bible", "God");
-        Book book4 = new Book("The Lord of the Rings", "J.R.R. Tolkien");
-
-        joeBiden.borrowBook(book1);
-        joeBiden.borrowBook(book2);
-        joeBiden.borrowBook(book3);
-
-        joeBiden.returnBook(book1);
-        joeBiden.returnBook(book2);
-        joeBiden.returnBook(book3);
-
-        joeBiden.borrowBook(book1);
-        joeBiden.borrowBook(book2);
-        joeBiden.borrowBook(book3);
-        joeBiden.borrowBook(book4);
-
-        joeBiden.returnBook(book4);
-
-        joeBiden.borrowBook(book1);
-
-        System.out.println(joeBiden.toString());
+        // Patron object creation
+        Patron myPatron = new Patron("Jacob James");
+        // Creation of 3 book objects
+        Book myBook = new Book("Percy Jackson", "Rick Riordan");
+        Book myBook2 = new Book("The Lord of the Rings", "J.R.R. Tolkien");
+        Book myBook3 = new Book("Harry Potter", "J.K. Rowling");
+        // Borrowing books
+        myPatron.borrowBook(myBook);
+        myPatron.borrowBook(myBook2);
+        // Returning books
+        myPatron.returnBook(myBook);
+        myPatron.returnBook(myBook2);
+        // Borrowing same book again
+        myPatron.borrowBook(myBook);
+        // Borrowing 3rd book
+        myPatron.borrowBook(myBook3);
+        // Testing if patron can borrow book of same name
+        myPatron.borrowBook(myBook);
+        // Displaying patron information
+        System.out.println(myPatron.toString());
     }
 }
