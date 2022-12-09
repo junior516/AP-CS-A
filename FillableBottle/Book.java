@@ -13,7 +13,6 @@
 // •	A “.equals” method that expects a Book and returns true if the titles and authors match, false otherwise.
 // •	A toString() method that displays the Book’s title and author.
 
-package Unit5.BookAndPatronLab;
 
 public class Book {
     private String title;

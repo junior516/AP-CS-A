@@ -3,14 +3,14 @@
 // Part Three
 // Create a driver that instantiates a Patron and tests the borrowBook, returnBook and toString methods of Patron.
 
-package Unit5.BookAndPatronLab;
+
 
 public class BookAndPatronDriver {
     public static void main(String[] args) {
         Patron joeBiden = new Patron("Joe Biden");
 
         Book book1 = new Book("The Art of War", "Sun Tzu");
-        Book book2 = new Book("The Prince", "Niccolo Machiavelli");
+        Book book2 = new Book("The Bible", "God");
         Book book3 = new Book("The Bible", "God");
         Book book4 = new Book("The Lord of the Rings", "J.R.R. Tolkien");
 

@@ -8,7 +8,6 @@
 // Constructor:
 // •	Custom constructor that expects the name, but initializes the Book variables to null.
 
-package Unit5.BookAndPatronLab;
 
 public class Patron {
     private String name;
