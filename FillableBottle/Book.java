@@ -1,18 +1,3 @@
-// 5.4 - BookAndPatronLab
-
-// Part One
-// Create a new class called Book.java to include the following:
-// Data Fields:
-// •	title
-// •	author
-// Constructor:
-// •	Custom constructor that expects both a title and author
-// Methods:
-// •	Getter for title
-// •	Getter for author
-// •	A “.equals” method that expects a Book and returns true if the titles and authors match, false otherwise.
-// •	A toString() method that displays the Book’s title and author.
-
 
 public class Book {
     private String title;
@@ -31,8 +16,8 @@ public class Book {
         return author;
     }
 
-    public boolean equals(Book bookN) {
-        if (bookN.getTitle().equals(title) && bookN.getAuthor().equals(author)) {
+    public boolean equals(Book book2) {
+        if (book2.getTitle().equals(title) && book2.getAuthor().equals(author)) {
             return true;
         } else {
             return false;
@@ -40,6 +25,6 @@ public class Book {
     }
 
     public String toString() {
-        return (title + ", by " + author);
+        return (title + ", " + author);
     }
 }
