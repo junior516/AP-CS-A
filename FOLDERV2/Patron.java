@@ -60,14 +60,20 @@ public class Patron {
 
 
     public String toString() {
-        if (book1 == null && book2 == null && book3 == null) {
-            return "Patron " + name + " has not borrowed any books.";
-        } else if (book2 == null && book3 == null) {
-            return "Patron " + name + " borrowed:" + "\n" + "Book 1: " + book1;
-        } else if (book3 == null) {
-            return "Patron " + name + " borrowed:" + "\n" + "Book 1: " + book1 + "\n" + "Book 2: " + book2;
-        } else {
-            return "Patron " + name + " borrowed:" + "\n" + "Book 1: " + book1 + "\n" + "Book 2: " + book2 + "\n" + "Book 3: " + book3;
+        System.out.println("Patron name: " + name + "\nBooks borrowed:");
+        String output = "";
+        if (book1 != null) {
+            output += book1.getTitle() + "\n,";
         }
+        if (book2 != null) {
+            output += book2.getTitle() + "\n,";
+        }
+        if (book3 != null) {
+            output += book3.getTitle() + "\n";
+        }
+        if (output == "") {
+            output = "No books borrowed.";
+        }
+        return output;
     }
 }
