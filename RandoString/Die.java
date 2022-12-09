@@ -14,3 +14,5 @@ public class Die {
         side = (int) (Math.random() * 6) + 1;
     }
 }
+
+
