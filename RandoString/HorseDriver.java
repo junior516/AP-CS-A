@@ -1,13 +1,4 @@
-// Part 2:  Expand the HorseDriver program to create three instances of horse objects using Horse.java. Each horse index will be a consecutive number from 0 to 2.  Showing each horse as they race down the track might look like this:
-// |----0----------|
-// |--1------------|
-// |------2--------|
 
-// A method in the driver should allow for one iteration of the race to occur, in which each horse has a chance of advancing (based on the random). This can be called in a loop until 
-// one or more horses crosses the finish line, thus ending the race. Print the name of the winner(s) of the race.
-
-// If everything works and only a single winner is declared even if it is a tie, the program will net 95%.
-// If a tie situation reports the index of every horse that won, the program will net 100%.
 
 public class HorseDriver {
     public static void main(String[] args) {
@@ -34,7 +25,6 @@ public class HorseDriver {
     }
 }
 
-//q: how do you escape prison? (step by step detail)
 
 
 
