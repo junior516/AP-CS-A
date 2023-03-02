@@ -1,0 +1,5 @@
+The provided Person class implements the Comparable interface meaning that the Person class has a compareTo() method which returns an integer indicating whether the Person object is less than, equal to, or greater than the provided Person object.
+
+Create a driver that asks the user how many people they would like to enter. Create an array of Person objects of that size. Have the user "create" each person by entering all data fields.
+
+After the last Person is entered, output the array in unsorted order. Perform an insertion sort which uses Person's compareTo method. Output your sorted array and verify that the elements are in ascending order.
