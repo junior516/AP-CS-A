@@ -2,9 +2,10 @@
     "java.project.sourcePaths": [
         "TestFold",
         "StringLab",
+        "SimpleHiearchyLab",
+        "ScaleMutator_SHELL/text version",
         "RandoString",
         "FillableBottle",
-        "IntegerArrayListLab",
-        "ScaleMutator_SHELL/text version"
+        "HorseLab"
     ]
 }

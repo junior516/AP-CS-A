@@ -1,0 +1,15 @@
+Oakey, Cat, 6 years old, 18.5 pounds
+Roxie, Dog, 12 years old, 33.6 pounds
+Scooter, Hamster, 1 years old, 0.3 pounds
+Big Bunny, Rabbit, 9 years old, 7.0 pounds
+Mystery Creature, Pet, 5 years old, 10.0 pounds
+Oakey is eating
+Roxie is digging
+Happy birthday to Scooter!
+Big Bunny is chewing
+Mystery Creature is playing
+Oakey is scratching
+Roxie is eating
+Scooter is running on its wheel!
+Big Bunny is thumping
+Mystery Creature is sleeping

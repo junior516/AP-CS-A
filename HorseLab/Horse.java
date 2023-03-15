@@ -8,7 +8,6 @@ public class Horse {
         index = 0;
     }
 
-
     public Horse(int loc, int i) {
         location = loc;
         index = i;
@@ -34,7 +33,6 @@ public class Horse {
             advance();
         }
     }
-
 
     public String toString() {
         String track = "|";
